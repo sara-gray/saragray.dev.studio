@@ -6,8 +6,16 @@ import category from './category'
 import post from './post'
 import author from './author'
 import skills from './skills'
+import examples from './examples'
 
 export default createSchema({
 	name: 'saragray.dev',
-	types: schemaTypes.concat([post, author, category, skills, blockContent]),
+	types: schemaTypes.concat([
+		post,
+		author,
+		category,
+		skills,
+		examples,
+		blockContent,
+	]),
 })
